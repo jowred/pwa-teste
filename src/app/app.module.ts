@@ -30,7 +30,7 @@ import { environment } from '../environments/environment';
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-
+    BrowserAnimationsModule,
     AppRoutingModule,
     MatToolbarModule,
     MatListModule,
@@ -39,7 +39,7 @@ import { environment } from '../environments/environment';
     MatInputModule,
     MatIconModule,
     FlexLayoutModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: true })
   ],
   providers: [],
   bootstrap: [AppComponent]
